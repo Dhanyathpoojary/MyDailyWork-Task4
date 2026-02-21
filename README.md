@@ -21,14 +21,14 @@ VELORA delivers a premium dark-themed shopping experience with secure authentica
 - Category-based filtering
 - Search functionality
 - Price sorting (Low → High / High → Low)
-- Clean premium product cards
+- Premium dark-gold product UI
 
 ### 🛍️ Shopping Cart
 - Add to cart
 - Update product quantity
 - Remove items
 - Real-time total calculation
-- Cart state managed using React Context API
+- Managed using React Context API
 
 ### 💳 Checkout System
 - Delivery details form (Name, Phone, Address, PIN Code)
@@ -37,13 +37,13 @@ VELORA delivers a premium dark-themed shopping experience with secure authentica
   - Credit/Debit Card (Demo)
   - Cash on Delivery
 - Order confirmation page
-- Mock payment flow (for demonstration purpose)
+- Professional mock payment flow for demonstration
 
 ### 🎨 UI / UX
-- Premium Dark + Gold theme
-- Fully responsive layout
-- Minimal luxury design
+- Premium Dark + Gold luxury theme
+- Fully responsive design
 - Clean typography & spacing
+- Smooth user flow from product → cart → checkout → success
 
 ---
 
@@ -51,9 +51,9 @@ VELORA delivers a premium dark-themed shopping experience with secure authentica
 
 Frontend:
 - React.js (Vite)
-- Context API
 - Tailwind CSS
 - React Router
+- Context API
 - Axios
 
 Backend:
@@ -63,28 +63,6 @@ Backend:
 - Mongoose
 - JWT Authentication
 - Bcrypt
-
----
-
-## 📂 Project Structure
-
-velora-ecommerce/
-│
-├── backend/
-│   ├── models/        # User, Product, Order schemas
-│   ├── routes/        # Auth, Product, Order APIs
-│   ├── server.js      # Express server configuration
-│   └── .env           # Environment variables
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/   # ProductCard, Navbar
-│   │   ├── context/      # CartContext, AuthContext
-│   │   ├── pages/        # Home, Cart, Checkout, Success
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│
-└── README.md
 
 ---
 
@@ -100,9 +78,9 @@ Database: MongoDB Atlas
 
 This project demonstrates:
 
-- Full MERN stack architecture implementation
-- REST API development
+- Full MERN stack development
+- RESTful API implementation
 - Secure authentication using JWT
-- Cart and checkout workflow design
-- MongoDB schema design
-- Production-style UI/UX implementation
+- Cart & checkout workflow design
+- MongoDB schema modeling
+- Production-style UI/UX design
